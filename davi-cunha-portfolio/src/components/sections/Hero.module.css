@@ -1,77 +1,86 @@
 .hero {
-  min-height: calc(100vh - 76px);
-  display: flex;
-  align-items: center;
-  padding: 3.5rem 2rem;
-}
-
-.container {
   max-width: 1180px;
-  width: 100%;
   margin: 0 auto;
+  padding: 6rem 2rem 5rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-template-columns: 1.1fr 0.9fr;
   gap: 3rem;
+  align-items: center;
 }
 
 .brand {
-  font-size: clamp(3.4rem, 6vw, 5.2rem);
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  margin-bottom: 1.5rem;
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
 }
 
 .brand span {
   color: var(--accent-pink);
 }
 
-.subtitle {
-  font-size: clamp(1.5rem, 2.5vw, 2rem);
-  font-weight: 500;
+.title {
+  font-size: clamp(2.4rem, 5vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.12;
   margin-bottom: 1.25rem;
 }
 
-.description {
-  font-size: 1.05rem;
-  line-height: 1.65;
-  color: var(--text-secondary);
-  max-width: 480px;
-  margin-bottom: 2rem;
+.title span {
+  color: var(--accent-pink);
 }
 
-.btnGroup {
+.subtitle {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  max-width: 540px;
+}
+
+.subtitle strong {
+  color: var(--text-primary);
+}
+
+.actions {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .primaryBtn {
-  padding: 0.85rem 1.5rem;
-  border-radius: 12px;
   background-color: var(--accent-pink);
-  color: #ffffff;
+  color: #fff;
   font-weight: 600;
-  font-size: 0.9rem;
-  box-shadow: 0 0 25px rgba(255, 0, 127, 0.3);
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  transition: opacity 0.2s ease;
+}
+
+.primaryBtn:hover {
+  opacity: 0.9;
 }
 
 .secondaryBtn {
-  padding: 0.85rem 1.25rem;
-  border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: var(--bg-secondary);
   border: 1px solid var(--border-subtle);
-  color: var(--text-secondary);
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
+  color: var(--text-primary);
+  font-weight: 600;
+  padding: 0.85rem 1.75rem;
+  border-radius: 10px;
+  transition: border-color 0.2s ease;
 }
 
 .secondaryBtn:hover {
   border-color: var(--accent-pink);
-  color: #ffffff;
 }
 
-@media (max-width: 968px) {
-  .container { grid-template-columns: 1fr; }
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding-top: 3.5rem;
+  }
 }

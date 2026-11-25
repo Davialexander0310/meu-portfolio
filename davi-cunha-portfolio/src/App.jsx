@@ -1,11 +1,15 @@
-import { useState } from 'react'
+import { Navbar } from './components/layout/Navbar';
+import { Home } from './pages/Home';
+import { Footer } from './components/layout/Footer';
 
-import './App.css'
-
-export default function App() {
-  const [count, setCount] = useState(0)
-
+export function App() {
   return (
-    0
-  )
+    <>
+      <Navbar />
+      <Home />
+      <Footer />
+    </>
+  );
 }
+
+export default App;
