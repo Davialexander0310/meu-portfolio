@@ -11,7 +11,7 @@ https://github.com/user-attachments/assets/b7baead7-4ac8-4318-b4a6-5b78309ee749
 ### Início e terminal
 ![Início e terminal](prints/inicio.png)
 
-### Projetos com filtro
+### Projetos
 ![Projetos com filtro](prints/projetos.png)
 
 ### Certificações e formação
@@ -25,7 +25,6 @@ https://github.com/user-attachments/assets/b7baead7-4ac8-4318-b4a6-5b78309ee749
 
 **Projetos**
 - Listagem de projetos com imagem, descrição, tecnologias e links para código ou demonstração
-- Filtro por categoria em tempo real (todos os projetos ou categorias específicas)
 
 **Tecnologias, certificações e formação**
 - Grade com ícones das linguagens, bancos de dados e ferramentas utilizadas
