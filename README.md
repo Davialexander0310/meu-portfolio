@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido em React para apresentação de projetos, forma�
 
 ## Demonstração
 
-[![Clique para assistir à demonstração em vídeo](prints/inicio.png)](https://github.com/Davialexander0310/meu-portfolio/blob/main/prints/davi-cunha-portfolio-video.mp4)
+[![Clique para assistir à demonstração em vídeo](prints/inicio.png)](https://github.com/Davialexander0310/meu-portfolio/raw/main/prints/davi-cunha-portfolio-video.mp4)
 
 Clique na imagem acima para abrir o vídeo de demonstração.
 
@@ -14,6 +14,7 @@ Clique na imagem acima para abrir o vídeo de demonstração.
 ![Início e terminal](prints/inicio.png)
 
 ### Projetos com filtro
+
 ![Projetos com filtro](prints/projetos.png)
 
 ### Certificações e formação
