@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido em React para apresentação de projetos, forma�
 
 ## Demonstração
 
-<video src="https://github.com/user-attachments/assets/b7baead7-4ac8-4318-b4a6-5b78309ee749" controls width="100%"></video>
+https://github.com/user-attachments/assets/b7baead7-4ac8-4318-b4a6-5b78309ee749
 
 ## Telas
 
