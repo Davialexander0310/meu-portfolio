@@ -4,9 +4,7 @@ Portfólio pessoal desenvolvido em React para apresentação de projetos, forma�
 
 ## Demonstração
 
-[![Clique para assistir à demonstração em vídeo](prints/inicio.png)](https://github.com/Davialexander0310/meu-portfolio/raw/main/prints/davi-cunha-portfolio-video.mp4)
-
-Clique na imagem acima para abrir o vídeo de demonstração.
+<video src="https://github.com/user-attachments/assets/b7baead7-4ac8-4318-b4a6-5b78309ee749" controls width="100%"></video>
 
 ## Telas
 
@@ -14,7 +12,6 @@ Clique na imagem acima para abrir o vídeo de demonstração.
 ![Início e terminal](prints/inicio.png)
 
 ### Projetos com filtro
-
 ![Projetos com filtro](prints/projetos.png)
 
 ### Certificações e formação
@@ -49,5 +46,34 @@ Clique na imagem acima para abrir o vídeo de demonstração.
 - Node.js instalado
 - npm
 
-### 2. Instalar as dependências
+### 2. Clonar o repositório
+```bash
+git clone https://github.com/Davialexander0310/meu-portfolio.git
+cd meu-portfolio
+```
+
+### 3. Instalar as dependências
 Na pasta raiz do projeto, execute o comando abaixo para instalar o React, o Vite e a biblioteca `react-icons`:
+
+```bash
+npm install
+```
+
+### 4. Rodar em modo de desenvolvimento
+```bash
+npm run dev
+```
+
+O terminal mostrará um endereço local, normalmente `http://localhost:5173`. Basta abri-lo no navegador.
+
+### 5. Gerar a versão de produção (opcional)
+```bash
+npm run build
+npm run preview
+```
+
+## Autor
+
+Desenvolvido por Davi Cunha.
+
+GitHub: [@Davialexander0310](https://github.com/Davialexander0310)
