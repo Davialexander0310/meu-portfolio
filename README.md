@@ -4,7 +4,9 @@ Portfólio pessoal desenvolvido em React para apresentação de projetos, forma�
 
 ## Demonstração
 
-<video src="prints/davi-cunha-portfolio-video.mp4" controls width="100%"></video>
+[![Clique para assistir à demonstração em vídeo](prints/inicio.png)](https://github.com/Davialexander0310/meu-portfolio/blob/main/prints/davi-cunha-portfolio-video.mp4)
+
+Clique na imagem acima para abrir o vídeo de demonstração.
 
 ## Telas
 
@@ -48,43 +50,3 @@ Portfólio pessoal desenvolvido em React para apresentação de projetos, forma�
 
 ### 2. Instalar as dependências
 Na pasta raiz do projeto, execute o comando abaixo para instalar o React, o Vite e a biblioteca `react-icons`:
-
-npm install
-
-
-### 3. Executar
-Inicie o servidor de desenvolvimento:
-
-npm run dev
-
-
-Acesse `http://localhost:5173` no navegador.
-
-## Arquitetura
-
-O projeto organiza a interface em componentes reutilizáveis, separando os dados estáticos dos elementos visuais:
-
-src/
-├── assets/          # imagens dos projetos e certificados
-├── components/
-│   ├── layout/      # cabeçalho (Navbar) e rodapé (Footer)
-│   ├── projects/    # card e barra de filtro de projetos
-│   ├── sections/    # seções da página (Hero, About, Technologies, Projects, Certificates, Education)
-│   └── ui/          # componente do terminal interativo
-├── data/            # listas estruturadas de projetos e certificados
-├── pages/           # composição da página principal (Home)
-└── styles/          # variáveis CSS globais e reset
-
-
-Fluxo principal: a página `Home` reúne as seções da aplicação, enquanto os componentes `Projects` e `TerminalCard` gerenciam a interatividade da tela com `useState`.
-
-## Próximos passos
-
-- Adicionar visualização ampliada (modal) para os certificados
-- Criar formulário de contato funcional
-- Adicionar alternância de idioma entre português e inglês
-
-## Autor
-
-Davi Alexander Cunha Barbosa
-[GitHub](https://github.com/Davialexander0310) | [LinkedIn](https://linkedin.com/in/davi-alexander-cunha-barbosa)
