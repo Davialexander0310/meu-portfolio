@@ -1,0 +1,97 @@
+.section {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3.5rem;
+}
+
+.number {
+  font-family: var(--font-mono);
+  color: var(--accent-pink);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.sectionTitle {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  color: var(--text-muted);
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: var(--border-subtle);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2.5rem 1.5rem;
+  justify-items: center;
+}
+
+.toolItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.65rem;
+  cursor: pointer;
+  padding: 0.75rem;
+  transition: transform 0.25s ease;
+}
+
+.toolItem:hover {
+  transform: translateY(-5px);
+}
+
+.iconBox {
+  width: 48px;
+  height: 48px;
+  color: #a1a1aa;
+  transition: color 0.25s ease, filter 0.25s ease;
+}
+
+.iconBox svg {
+  width: 100%;
+  height: 100%;
+}
+
+.toolItem:hover .iconBox {
+  color: var(--tool-color);
+  filter: drop-shadow(0 0 12px color-mix(in srgb, var(--tool-color) 45%, transparent));
+}
+
+.toolName {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--tool-color);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.toolItem:hover .toolName {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
